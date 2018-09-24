@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_design_background_1048_6726"
+    android:orientation="vertical"
+    tools:context="com.example.dana.android5778_7109_3610_03.controller.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="@string/sign_up"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="330dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fnText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/firstName"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/fnBox"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="Ariel"
+                android:hint="@string/action_enter"
+                android:inputType="text"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lnText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/lastName"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/lnBox"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="Ariel"
+                android:hint="@string/action_enter"
+                android:inputType="text"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/id"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/idBox"
+                android:layout_width="285dp"
+                android:layout_height="match_parent"
+                android:fontFamily="Ariel"
+                android:hint="@string/action_enter_pass"
+                android:inputType="number"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/phoneNum"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/phoneBox"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="Ariel"
+                android:hint="@string/action_enter"
+                android:inputType="phone"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/email"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/emailBox"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="Ariel"
+                android:hint="@string/action_enter_user"
+                android:inputType="textEmailAddress"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cardText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:text="@string/creditCard"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/cardBox"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="Ariel"
+                android:hint="@string/action_enter"
+                android:inputType="number"></EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_User_Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/register" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/clear"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="casual"
+        android:text="@string/action_clear"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

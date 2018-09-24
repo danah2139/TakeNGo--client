@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abstract_design_background_1048_6726"
+    tools:context="com.example.dana.android5778_7109_3610_03.controller.LoginActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="@string/action_sign_in"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutIn1"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="128dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="casual"
+            android:text="@string/prompt_email"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="203dp"
+            android:layout_height="45dp"
+            android:fontFamily="Ariel"
+            android:hint="@string/action_enter"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="192dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutIn2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="128dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="casual"
+            android:text="@string/prompt_password"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/passName"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:fontFamily="Ariel"
+            android:hint="@string/action_enter"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutIn3"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="128dp">
+
+        <CheckBox
+            android:id="@+id/saveCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"/>
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="@string/action_sign_in" />
+        <Button
+            android:id="@+id/register"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="@string/action_register" />
+
+        <TextView
+            android:id="@+id/clear"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="casual"
+            android:text="@string/action_clear"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

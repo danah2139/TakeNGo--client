@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Info" />
+        <item
+            android:id="@+id/nav_add_order"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Add Order" />
+        <item
+            android:id="@+id/nav_show_available_cars"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Show Available Cars" />
+        <item
+            android:id="@+id/nav_close_order"
+            android:icon="@drawable/ic_remove_black_24dp"
+            android:title="Close Order" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_close_black_24dp"
+            android:title="Exit" />
+    </group>
+
+</menu>

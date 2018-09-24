@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_design_background_1048_6726"
+    tools:context="com.example.dana.android5778_7109_3610_03.controller.OptionFourFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Car"
+            android:fontFamily="casual"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Car number: "
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/carNumBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Car model: "
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/ModelBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Branch number: "
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/branchBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="Mile start: "
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/mileStartBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="Rentel start:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/rentalStartBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Car color: "
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/colorBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Insert End Miles: "
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/mileEndBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/refCheck"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Is refuling?: "
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/refulNumText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Enter"
+                android:inputType="number"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/closeOrderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="Close Order"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+</FrameLayout>

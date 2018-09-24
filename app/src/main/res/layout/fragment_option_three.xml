@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/abstract_design_background_1048_6726"
+    tools:context="com.example.dana.android5778_7109_3610_03.controller.OptionThreeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></SearchView>
+        <ExpandableListView
+            android:id="@+id/CarsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></ExpandableListView>
+    </LinearLayout>
+
+</FrameLayout>
